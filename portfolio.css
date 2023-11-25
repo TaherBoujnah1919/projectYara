@@ -1,8 +1,9 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9;
+    background-color: #edf1f6; 
+    color: #2c3e50;
 }
 
 .container {
@@ -11,11 +12,13 @@ body {
 }
 
 header {
-    background-color: #2c3e50;
-    color: #ecf0f1;
+    font-family: 'Hunter', sans-serif;
+    background-color: #0b1957; 
     padding: 1em 0;
     text-align: center;
 }
+
+
 
 .profile-container {
     display: flex;
@@ -38,27 +41,22 @@ header {
 
 .info {
     flex-grow: 1;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .info h1 {
     margin: 0;
-    color: #3498db;
+    color: #000000; 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    
 }
 
 .info h2 {
     margin: 5px 0;
-    color: #95a5a6;
-}
-
-.university-link {
-    display: block;
-    margin-top: 5px;
-    color: #3498db;
-    text-decoration: none;
-}
-
-.university-link:hover {
-    text-decoration: underline;
+    color: #000000; 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
 }
 
 nav.mobile-menu {
@@ -67,7 +65,7 @@ nav.mobile-menu {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #2c3e50;
+    background-color: #d1e8ff;
     padding: 1em 0;
 }
 
@@ -79,22 +77,28 @@ nav.mobile-menu ul {
 
 nav.mobile-menu a {
     text-decoration: none;
-    color: #ecf0f1;
+    color: #fff;
     font-weight: bold;
     transition: color 0.3s ease-in-out;
 }
 
 nav.mobile-menu a:hover {
-    color: #3498db;
+    color: #7f8c8d;
 }
-
+#about {
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 600;
+}
 main {
     padding: 20px 0;
+}
+.work-experience h2 {
+font-family: 'Hunter', sans-serif;
 }
 
 section {
     margin-bottom: 40px;
-    background-color: #fff;
+    background-color: #d0e3ff;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -107,10 +111,147 @@ ul {
 }
 
 footer {
-    background-color: #2c3e50;
-    color: #ecf0f1;
+    background-color: #3498db;
+    color: #fff;
     text-align: center;
     padding: 1em 0;
 }
 
+nav.menu {
+    font-family: 'Tex Gyre Termes', serif;
+    background-color: #d1e8ff; 
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
 
+nav.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav.menu li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav.menu a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+nav.menu a:hover {
+    color: #3498db; 
+}
+
+#education {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+
+}
+
+
+.company-logo{
+    max-width: 40px;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+}
+
+.company-logo {
+    left: 10px;
+}
+
+.university-logoo.logo-container {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.university-logoo {
+    max-width: 60px;
+}
+.university-logoo:hover {
+    transform: scale(1.1);
+}
+.company-logo:hover {
+    transform: scale(1.1);
+}
+
+
+.work-experience {
+    position: relative;
+    color: #2c3e50;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+    background-color: #d0e3ff; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.work-experience .logo-container {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.work-experience-logo {
+    max-width: 40px;
+}
+.work-experience-logo:hover {
+    transform: scale(1.1);
+}
+
+.contact-logos {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-logo {
+    max-width: 50px;
+    margin-right: 30px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.contact-logo:hover {
+    transform: scale(1.1);
+}
+
+.montserrat-font {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #edf1f6; 
+    color: #2c3e50;
+}
+
+.hunter-font {
+    font-family: 'Hunter', sans-serif;
+}
+
+
+header {
+    background-color: #0b1957; 
+    padding: 1em 0;
+    text-align: center;
+}
+
+
+.hunter-font section {
+    background-color: #d0e3ff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.hunter-font section h2 {
+    font-family: 'Hunter', sans-serif;
+}
